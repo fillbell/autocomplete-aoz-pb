@@ -4,3 +4,5 @@ Initial Version
 Updated to only show suggestions for aoz files
 ## 1.2.0
 Added missing instruction
+## 1.3.0
+Fixed matching logic
