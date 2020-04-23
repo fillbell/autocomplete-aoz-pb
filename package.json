@@ -1,0 +1,25 @@
+{
+  "name": "autocomplete-aoz-pb",
+  "main": "./lib/main",
+  "version": "0.1.0",
+  "description": "Autocomplete for AOZ Studio",
+  "keywords": [
+    "autocomplete",
+    "provider",
+    "aoz",
+    "aoz studio"
+  ],
+  "repository": "https://github.com/lonekorean/atom-autocomplete-boilerplate",
+  "author": "Phil Bell - fil_bell (discord)",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.15.0 <2.0.0"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  }
+}
