@@ -9,7 +9,7 @@
     "aoz",
     "aoz studio"
   ],
-  "repository": "",
+  "repository": "https://github.com/fillbell/autocomplete-aoz-pb",
   "author": "Phil Bell - fil_bell (discord)",
   "license": "MIT",
   "engines": {
