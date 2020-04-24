@@ -10,3 +10,7 @@ Fixed matching logic
 Updated match logic to only show after 4 chars and show all suggestions that include the prefix
 ## 1.5.0
 Changed to use indexOf instead of includes
+## 1.6.0
+Suggestions are now sorted
+Typing an instruction that has more than one word causes the suggestions to disappear. Now if you type the instruction without the space it will still give correct suggestions.
+Started the Intermediate suggestions

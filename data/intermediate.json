@@ -1,3 +1,12 @@
 [
-	
+	{
+		"text": "Bob",
+		"description": "Bob INDEX, IMAGE\nChanges the image of a bob",
+		"descriptionMoreURL": "https://www.aoz.studio/"
+  },
+	{
+		"text": "Bob Off",
+		"description": "Bob Off INDEX\nDestroys all or one bob\nINDEX: Index of the bob to destroy. If absent, will destroy all the bobs in the current screen",
+		"descriptionMoreURL": "https://www.aoz.studio/"
+  }
 ]
