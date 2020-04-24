@@ -14,3 +14,5 @@ Changed to use indexOf instead of includes
 Suggestions are now sorted
 Typing an instruction that has more than one word causes the suggestions to disappear. Now if you type the instruction without the space it will still give correct suggestions.
 Started the Intermediate suggestions
+## 1.7.0
+Add disableForSelector for comments and strings
