@@ -20,3 +20,5 @@ Add disableForSelector for comments and strings
 Updated basic suggestions to include instructions with $ and #
 ## 1.9.0
 Added missing suggestions
+## 1.10.0
+Updated the order that suggestions are returned. Suggestions that begin with the prefix are returned first, then with suggestions that contain the prefix
