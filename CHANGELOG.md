@@ -18,3 +18,5 @@ Started the Intermediate suggestions
 Add disableForSelector for comments and strings
 ## 1.8.0
 Updated basic suggestions to include instructions with $ and #
+## 1.9.0
+Added missing suggestions

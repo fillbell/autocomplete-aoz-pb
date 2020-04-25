@@ -153,6 +153,7 @@
 "SetTileValue",
 "MapTile Replace",
 "ResetMaps",
+"CreateMaps",
 "MapCount",
 "MapView Copy",
 "MapView Restore",
