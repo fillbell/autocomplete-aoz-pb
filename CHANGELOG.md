@@ -16,3 +16,5 @@ Typing an instruction that has more than one word causes the suggestions to disa
 Started the Intermediate suggestions
 ## 1.7.0
 Add disableForSelector for comments and strings
+## 1.8.0
+Updated basic suggestions to include instructions with $ and #
