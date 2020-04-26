@@ -22,3 +22,5 @@ Updated basic suggestions to include instructions with $ and #
 Added missing suggestions
 ## 1.10.0
 Updated the order that suggestions are returned. Suggestions that begin with the prefix are returned first, then with suggestions that contain the prefix
+## 1.11.0
+Added 'type' so it displays an icon for the suggestions
