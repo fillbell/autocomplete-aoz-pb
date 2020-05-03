@@ -1,7 +1,7 @@
 {
   "name": "autocomplete-aoz-pb",
   "main": "./lib/main",
-  "version": "1.11.0",
+  "version": "1.12.0",
   "description": "Autocomplete for AOZ Studio",
   "keywords": [
     "autocomplete",
