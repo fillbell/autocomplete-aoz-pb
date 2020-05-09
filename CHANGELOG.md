@@ -32,3 +32,5 @@ Changed from the basic provider to now use the intermediate, data now comes from
 Fixed incorrect instruction name
 ## 1.15.0
 Removed duplicates
+## 1.16.0
+Added params to the instruction info
