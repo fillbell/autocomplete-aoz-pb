@@ -2320,15 +2320,15 @@
 "description": "Move the starting position of a menu. Amiga only, will not be implemented.",
 "descriptionMoreURL": "https://www.aoz.studio/"
 },{
-"text": "Set Menu ... To ..",
+"text": "Set Menu .",
 "description": "Move a menu item. Amiga only, will not be implemented.",
 "descriptionMoreURL": "https://www.aoz.studio/"
 },{
-"text": "Menu Key .. To ..",
+"text": "Menu Key",
 "description": "Assign a key to a menu item.. Will be implemented later.",
 "descriptionMoreURL": "https://www.aoz.studio/"
 },{
-"text": "Menu Key .. To ..",
+"text": "Menu Key",
 "description": "Assign a key to a menu item.. Will be implemented later.",
 "descriptionMoreURL": "https://www.aoz.studio/"
 },{
@@ -2768,7 +2768,7 @@
 "description": "Turns the display system into double-buffering. Deprecated: Double Buffering has no effect in AOZ",
 "descriptionMoreURL": "https://www.aoz.studio/"
 },{
-"text": "Set Transparent ..., ..., ...",
+"text": "Set Transparent",
 "description": "Set one or more colours of the current screen as transparent. Will invoke a complete remapping of the screen that migght take a long time. Use this instruction to make parralax scrolling diplays",
 "descriptionMoreURL": "https://www.aoz.studio/"
 },{

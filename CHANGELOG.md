@@ -28,3 +28,5 @@ Added 'type' so it displays an icon for the suggestions
 Added IsSprite
 ## 1.13.0
 Changed from the basic provider to now use the intermediate, data now comes from the generated AOZ Studio documentation
+## 1.14.0
+Fixed incorrect instruction name
