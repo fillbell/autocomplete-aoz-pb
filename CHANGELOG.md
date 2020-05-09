@@ -26,3 +26,5 @@ Updated the order that suggestions are returned. Suggestions that begin with the
 Added 'type' so it displays an icon for the suggestions
 ## 1.12.0
 Added IsSprite
+## 1.13.0
+Changed from the basic provider to now use the intermediate, data now comes from the generated AOZ Studio documentation

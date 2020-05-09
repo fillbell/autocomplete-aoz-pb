@@ -1,12 +1,3738 @@
 [
-	{
-		"text": "Bob",
-		"description": "Bob INDEX, IMAGE\nChanges the image of a bob",
-		"descriptionMoreURL": "https://www.aoz.studio/"
-  },
-	{
-		"text": "Bob Off",
-		"description": "Bob Off INDEX\nDestroys all or one bob\nINDEX: Index of the bob to destroy. If absent, will destroy all the bobs in the current screen",
-		"descriptionMoreURL": "https://www.aoz.studio/"
-  }
-]
+{
+"text": "Sprite Move X",
+"description": "Defines the horizontal movement of a sprite",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sprite Move Y",
+"description": "Defines the horizontal movement of a sprite",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sprite Move Off",
+"description": "Stops the movement of one or all the sprites.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sprite Move On",
+"description": "Start the movement of one or all the sprites.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sprite Move Freeze",
+"description": "Pause the movement of one or all the sprites.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sprite Anim Off",
+"description": "Stops the animation of one or all the sprites.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sprite Anim On",
+"description": "Stops the animation of one or all the sprites.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sprite Anim Freeze",
+"description": "Pause the animation of one or all the sprites.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sprite Anim",
+"description": "Defines the animation of a sprite.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sprite Moveon",
+"description": "Indicates if the movement of one sprite is completed or not.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sprite Move X",
+"description": "Defines the horizontal movement of a bob",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bob Move Y",
+"description": "Defines the horizontal movement of a bob",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bob Move Off",
+"description": "Stops the movement of one or all the bobs.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bob Move On",
+"description": "Start the movement of one or all the bobs.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bob Move Freeze",
+"description": "Pause the movement of one or all the bobs.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bob Anim Off",
+"description": "Stops the animation of one or all the bobs.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bob Anim On",
+"description": "Stops the animation of one or all the bobs.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bob Anim Freeze",
+"description": "Pause the animation of one or all the bobs.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bob Anim",
+"description": "Defines the animation of a bob.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bob Moveon",
+"description": "Indicates if the movement of one bob is completed or not.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Chanan",
+"description": "Test an AMAL channel for an active animation",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Chanmv",
+"description": "Test an AMAL channel for an active movement",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Amal On",
+"description": "Start one or all AMAL channels",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Amal Off",
+"description": "Stop one or all AMAL channels",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Amal Freeze",
+"description": "Pause one or all AMAL channels",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Amalerr$",
+"description": "Return the name of an eventual error in AMAL string when running it and advances the pointer to the next error",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Amalerr",
+"description": "Return the position of an eventual error in AMAL string when running it and advances the pointer to the next error",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Amal",
+"description": "Assigns an AMAL program to an animation channel",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Amal",
+"description": "Assigns an AMAL program to an animation channel",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Amal",
+"description": "Assigns an AMAL program to an animation channel and direct the output to a memory address",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Synchro On",
+"description": "Turn ON the automatic execution of the AMAL programs",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Synchro Off",
+"description": "Turn OFF the automatic execution of the AMAL programs",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Synchro",
+"description": "Executes on step of animation of all AMAL channels. 'Synchro Off' must have been used before calling this instruction",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Channel To Screen Display",
+"description": "Send the output of an AMAL channel to the position of a screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Channel To Screen Offset",
+"description": "Send the output of an AMAL channel to the offset of a screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Channel To Screen Size",
+"description": "Send the output of an AMAL channel to the size of a screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Channel To Sprite",
+"description": "Send the output of an AMAL channel to a sprite",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Channel To Bob",
+"description": "Send the output of an AMAL channel to a bob",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Channel To Rainbow",
+"description": "Send the output of an AMAL channel to a rainbow",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Amreg",
+"description": "Get or set the value of an AMAL register",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Move X",
+"description": "Defines the horizontal movement of a sprite. Deprecated, use 'Sprite Move X'",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Move Y",
+"description": "Defines the vertical movement of a sprite. Deprecated, use 'Sprite Move Y'",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Move Off",
+"description": "Stops the movement of one or all the sprites. Deprecated, use 'Sprite Move Off'",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Move On",
+"description": "Start the movement of one or all the sprites. Deprecated, use 'Sprite Move On'",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Move Freeze",
+"description": "Pause the movement of one or all the sprites. Deprecated, use 'Sprite Move Freeze'",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Anim Off",
+"description": "Stops the animation of one or all the sprites. Deprecated, use 'Sprite Anim Off'",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Anim On",
+"description": "Stops the animation of one or all the sprites. Deprecated, use 'Sprite Anim On'",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Anim On",
+"description": "Pause the animation of one or all the sprites. Deprecated, use 'Sprite Anim Pause'",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Anim",
+"description": "Defines the animation of a sprite. Deprecated, use 'Sprite Anim'",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Moveon",
+"description": "Indicates if the movement of one sprite is completed or not. Deprecated: use 'Sprite Moveon'",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Hardcol",
+"description": "Set hardware register for hardware Sprite collision detection. No effect in AOZ.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Hardcol",
+"description": "Return collision status after a Set Hardcol instruction. No effect in AOZ.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "AReg",
+"description": "Reserved variable: pass values to and from 68000 address register. No effect in AOZ.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "AReg",
+"description": "Reserved variable: pass values to and from 68000 address register. No effect in AOZ.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Copper On",
+"description": "Re-start automatic copper generation. May be implemented in a future enhanced Amiga renderer.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Copper Off",
+"description": "Stop automatic copper generation. May be implemented in a future enhanced Amiga renderer.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Cop Swap",
+"description": "Swap logical and physical copper lists. May be implemented in a future enhanced Amiga renderer.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Cop Reset",
+"description": "Re-set copper list pointer. May be implemented in a future enhanced Amiga renderer.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Cop Wait",
+"description": "Insert a WAIT instruction into copper list. May be implemented in a future enhanced Amiga renderer.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Cop Movel",
+"description": "Write a long MOVE instruction to copper list. May be implemented in a future enhanced Amiga renderer.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Cop Move",
+"description": "Write a MOVE instruction to current copper list. May be implemented in a future enhanced Amiga renderer.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Cop Logic",
+"description": "Give address of logical copper list. May be implemented in a future enhanced Amiga renderer.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "PSel$",
+"description": "Used to handle multiple applications in the AMOS IDE. Will not be implemented.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Multi Wait",
+"description": "managed multi-tasking on the Amiga. May be implemented.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "AMOS To Front",
+"description": "Bring AMOS IDE in the front of display. Will not be implemented.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "AMOS To Back",
+"description": "Bring AMOS IDE in the back of display. Will not be implemented.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "AMOS Here",
+"description": "Detect if AMOS is running. Emulation returns TRUE",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "AMOS Lock",
+"description": "Blocks Amiga-A key. Will not be implemented.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Close Workbench",
+"description": "Cclose the Workbench. Will not be implemented.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Buffer",
+"description": "Set the size of the variable area. Will not be implemented.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Equ",
+"description": "Get an equate. Will not be implemented.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Lvo",
+"description": "Get the Library Vector Offset. Will not be implemented.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Double Precision",
+"description": "Engage double precision accuracy. Will not be implemented.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Request WB",
+"description": "Use the Workbench system requester. Will not be implemented.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Request ON",
+"description": "Use the AMOS Professional requester routine. Will not be implemented.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Request OFF",
+"description": "Used to cancel the requester. Will not be implemented.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Load Asset",
+"description": "Load an external file for Image, Audio or video. If the file is an image, it can be used with the 'Bob' command.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Del Asset",
+"description": "Delete an asset from the memory.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bank Swap",
+"description": "Swap two banks in the list of banks",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bank Shrink",
+"description": "Change the size of a memory bank",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Start",
+"description": "Return the address of the start of a memory bank (composite number, only useable with AOZ mmemory instruction)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Length",
+"description": "Return the length of a memory bank",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Erase",
+"description": "Destroy the content of a memory bank and remove it from the list of banks",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Erase All",
+"description": "Destroy all memory banks",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Erase Temp",
+"description": "Destroy all temporary memory banks (bank marked as 'Work')",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "List Bank",
+"description": "Displays the list of one or all the memory banks in the current screen, type and length",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Reserve As Work",
+"description": "Reserve and allocates memory for a new bank of 'Work' type, and add it to the list of banks",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Reserve As Chip Work",
+"description": "Reserve and allocates memory for a new bank in Amiga chip memory, and add it to the list of banks (deprecated)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Reserve As Data",
+"description": "Reserve and allocates memory for a new bank of 'Data' type, and add it to the list of banks",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Reserve As Data",
+"description": "Reserve and allocates memory for a new bank of 'Data' type in Amiga chip memory, and add it to the list of banks (deprecated)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Image Width",
+"description": "Return the width in pixels of an image in the Images bank",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Image Height",
+"description": "Return the height in pixels of an image in the Images bank",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "HRev",
+"description": "Return a flag of bits to be used in Bob and Sprite instructions that will mirror the image horizontally",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "VRev",
+"description": "Return a flag of bits to be used in Bob and Sprite instructions that will mirror the image vertically",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Rev",
+"description": "Return a flag of bits to be used in Bob and Sprite instructions that will mirror the image horizontally and vertically",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Ins Sprite",
+"description": "Inserts an empty image in the Images bank (deprecated, use 'Ins Image')",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Ins Sprite To",
+"description": "Inserts a number of empty images in the Images bank (deprecated, use 'Ins Image To')",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Del Sprite",
+"description": "Delete an image in the Images bank (deprecated, use 'Del Image')",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Del Sprite To",
+"description": "Delete a range of images from the image bank (deprecated, use 'Del Image To')",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Ins Bob",
+"description": "Inserts an empty image in the Images bank (deprecated, use 'Ins Image')",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Ins Bob To",
+"description": "Inserts a number of empty images in the Images bank (deprecated, use 'Ins Image To')",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Del Bob",
+"description": "Delete an image in the Images bank (deprecated, use 'Del Image')",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Del Bob To",
+"description": "Delete a range of images from the image bank (deprecated, use 'Del Image To')",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Ins Image",
+"description": "Inserts an empty image in the Images bank",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Ins Image To",
+"description": "Inserts a number of empty images in the Images bank",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Del Image",
+"description": "Delete an image in the Images bank",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Del Image To",
+"description": "Delete a range of images from the image bank",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Make Mask",
+"description": "Create a transparency mask out of the full black color of an image in the Images bank (RGB = $000000)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Make Mask",
+"description": "Create a transparency mask out of the full black color of an image in the Images bank (RGB = $000000)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "No Mask",
+"description": "Removes the transparency mask of an image in the Images bank, turning the image full opaque",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "No Mask",
+"description": "Removes the transparency mask of an image in the Images bank, turning the image full opaque",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Hot Spot",
+"description": "Set the hot-spot of an image in the Images bank",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Hot Spot",
+"description": "Calculates the hot-spot of an image in the Images bank",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Hot Spot",
+"description": "Returns the coordinate of the hot-spot of an image in the Images bank",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Hot Spot",
+"description": "Set the hot-spot of an image in the Images bank from the name of the image",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Hot Spot",
+"description": "Calculates the hot-spot of an image in the Images bank from the name of the image",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Hot Spot",
+"description": "Returns the coordinate of the hot-spot of an image in the Images bank from the name of the image",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bob",
+"description": "Changes the image of a bob",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bob",
+"description": "Changes the image of a bob",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bob",
+"description": "Creates or sets the position of a bob",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bob",
+"description": "Creates or sets the position of a bob",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bob Off",
+"description": "Destroys all or one bob",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bob Update Off",
+"description": "Turns off the automatic bob coordinate update system. After it, all 'Bob' instruction will no longer have a visible effect until an 'Bob Update' instruction is useD",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bob Update On",
+"description": "Turns on the automatic bob coordinate update system. After it, the effect of all 'Bob' instructions will be visible on display",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bob Clear",
+"description": "This AMOS-compatible instruction has no other effect in AOZ than to call 'Bob Update'",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bob Draw",
+"description": "This AMOS-compatible instruction has no effect in AOZ",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Limit Bob",
+"description": "Turns off all previous Limit bob instructions",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Limit Bob",
+"description": "Clip the display of all bobs to a limited area in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Limit Bob",
+"description": "Clip the display of a specific bob to a limited area in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Limit Bob",
+"description": "Clip the display of all bobs to a limited area in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Limit Bob",
+"description": "Clip the display of a specific bob to a limited area in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bob Alpha",
+"description": "Set the transparency of a bob, also called 'Alpha'",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bob Show",
+"description": "Make a bob visible on screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bob Hide",
+"description": "Make a bob invisible",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bob Scale",
+"description": "Changes the scale (zoom) of a bob",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bob Rotate",
+"description": "Rotates a bob around it's hot-spot",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bob Skew",
+"description": "Distorts a bob horizontally or vertically",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Put Bob",
+"description": "Draws the bob in in the current screen as a stamp, at iots current position with it's current scale, rotation and skew",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Put Bob",
+"description": "Draws an image from the image bank in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Priority On",
+"description": "Turns on automatic sorting of the Z-order of the bobs in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Priority Off",
+"description": "Turnsoff automatic sorting of the Z-order of the bobs in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "X Bob",
+"description": "Returns the horizontal coordinate of the bob",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Y Bob",
+"description": "Returns vertical coordinate of the bob",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "I Bob",
+"description": "Returns the index of the current image displayed by the bob",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "I Bob$",
+"description": "Returns the name of the current image displayed by the bob",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Priority Reverse On",
+"description": "Inverts the Z-Order of the bobs in the current screen if Priority is activated. After this instruction, bobs with the highest Y coordinate will be displayed in the back of others",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Priority Reverse Off",
+"description": "Stops the inversion of the Z-Order of the bobs in the current screen if Priority is activated. After this instruction, bobs with the lowest Y coordinate will be displayed in the back of others",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "IsBob",
+"description": "Checks if a bob is defined without generating an error",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Get Bob",
+"description": "Captures a portion of the current screen, create a transparency mask out of true black (RGB #000000) and add the image to the Images bank. (Deprecated, use 'Get Image')",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Get Bob",
+"description": "Captures a portion of the given screen, create a transparency mask out of true black (RGB #000000) and add the image to the Images bank. (Deprecated, use 'Get Image')",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Get Bob",
+"description": "Captures a portion of the current screen, create a transparency mask out of true black (RGB #000000) and add th image to the Images bank. (Deprecated, use 'Get Image')",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Get Bob",
+"description": "Captures a portion of the given screen, create a transparency mask out of true black (RGB #000000) and add the image to the Images bank. (Deprecated, use 'Get Image')",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Get Bob Palette",
+"description": "Copy the colour palette from the Images bank to the current screen. (Deprecated, use 'Get Images Palette')",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bob Col",
+"description": "Test if two bobs are in collision",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bob Col To",
+"description": "Test if one bob is colliding with a set of bobs",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "BobSprite Col",
+"description": "Test if a bob is colliding with a sprite",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "BobSprite Col To",
+"description": "Test if one bob is colliding with a set of sprites",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sprite Col",
+"description": "Test if two sprites are in collision",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sprite Col To",
+"description": "Test if one sprite is colliding with a set of sprites",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "SpriteBob Col",
+"description": "Test if a bob is colliding with a sprite",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "SpriteBob Col To",
+"description": "Test if one sprite is colliding with a set of bobs",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Col",
+"description": "Test the status of an object after collision detection",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Get Palette",
+"description": "Grab the palette of another screen in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Get Images Palette",
+"description": "Copy the colour palette from the Images bank to the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Colour",
+"description": "Set the RGB value of a colour in the palette the curretn screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Colour",
+"description": "Return the RGB value of a colour from the palette of the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "RGB$",
+"description": "Return a string with the given RGB colors",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "RGB",
+"description": "Return a number with the RGB value encoded",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Colour",
+"description": "Return the RGB value of a colour from the palette of the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Flash Off",
+"description": "Turns off the flashing colours sequence",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Flash",
+"description": "Set the flashing color sequence",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Flash",
+"description": "Turn off all colour shifts for current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Shift Up",
+"description": "Rotate the colour values of the current screen upwards",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Shift Down",
+"description": "Rotate the colour values of the current screen downwards",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Fade",
+"description": "Blend the colours of the current screen to the values of the palette of another screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "fade",
+"description": "Blend colours to new values",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Default Palette",
+"description": "Set the default palette to be used in further 'Screen Open' instructions",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Palette",
+"description": "Set the palette of the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Default",
+"description": "Restore the display to the state it was when the application start. Close all screen, all windows, detroys all bobs and sprites and open the default screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Default",
+"description": "Restore the display to the state it was when the application start. Close all screen, all windows, detroys all bobs and sprites and open the default screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Colour Back",
+"description": "Assign a colour to the screen background which fills unused areas at the top and bottom of the visible screen in Amiga mode and the black bars on the side of the canvas in PC mode. Alternatively, existing colours may also be specified when enclosed in brackets",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Joy",
+"description": "Return the current state of the joystick",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "JUp",
+"description": "Test for joystick movement up",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "JDown",
+"description": "Test for joystick movement down",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "JLeft",
+"description": "Test for joystick movement left",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "JRight",
+"description": "Test for joystick movement right",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Fire",
+"description": "Test for joystick fire button",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Gamepad Button",
+"description": "Test for a button depressed on a complex gamepad",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Gamepad Axe",
+"description": "Return the position of one of the axes of a gamepad",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Gamepad trigger",
+"description": "Return the position of one of the triggers of a gamepad",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Gamepad Name$",
+"description": "Return the brand name of the gamepad",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Gamepad Connected",
+"description": "Test if a gamepad is connected to the computer",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Gamepad Map Buttons",
+"description": "Define a new mapping for the buttons of non-standard compliant gamepads. Doc to come.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Gamepad Map Axes",
+"description": "Define a new mapping for the axes of non-standard compliant gamepads. Doc to come.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Gamepad Map Triggers",
+"description": "Define a new mapping for the axes of non-standard compliant gamepads. Doc to come.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dialog Box",
+"description": "Display dialogue box on screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dialog Open",
+"description": "Display dialogue box on screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dialog Close",
+"description": "Display dialogue box on screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dialog Run",
+"description": "Display dialogue box on screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dialog",
+"description": "Return status of an open dialogue box",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "VDialog",
+"description": "Reserved variable. Assign or read an Interface value",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "VDialog$",
+"description": "Reserved variable. Assign or read an Interface string",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "RDialog",
+"description": "Read the status of a zone or button",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "RDialog$",
+"description": "Read the status of a zone or button",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "EDialog",
+"description": "Find an error in an Interface program",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dialog Clr",
+"description": "Clear a dialogue box",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dialog Update",
+"description": "Uupdate a zone of a dialog box",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dialog Freeze",
+"description": "Stop dialogue channel input",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dialog Unfreeze",
+"description": "Restart dialogue channel input",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Resource Bank",
+"description": "Select a bank to be used for resources",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Resource$",
+"description": "Read a message from the Resource Bank",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Resource Screen Open",
+"description": "Open a screen using the resource settings",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Resource Uppack",
+"description": "Unpack an image from the Resource Bank",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "ZDialog",
+"description": "Return the Z position of a dialog (?)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Freeze",
+"description": "Prevent the display to be updated while keeping the application runnin in the back",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Unfreeze",
+"description": "Restore display update after 'Freeze' has been used.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "View",
+"description": "If 'Auto View Off' has been used, update the display immediately",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Auto View Off",
+"description": "Toggle viewing mode off",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Auto View On",
+"description": "Toggle viewing mode on",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Update Off",
+"description": "Turn off the automatic Object re-drawing system",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Update On",
+"description": "Turn on the automatic Object re-drawing system",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Update Every",
+"description": "Fix the rate of the automatic update system",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Update",
+"description": "Force an update of the display. Will only work in 'Auto Mode Off' mode.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Display Width",
+"description": "Return the width of teh display canvas in PC mode, and the width of the emulated TV set in retro-machine emulation mode",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Display Height",
+"description": "Return the width of the display canvas in PC mode, and the width of the emulated TV set in retro-machine emulation mode, this value being different in NTSC and PAL emulations",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "NTSC",
+"description": "Test if teh display is emulating a NTSC TV set.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "AOZ Hide",
+"description": "Hide the AOZ display canvas",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "AOZ Show",
+"description": "Show the AOZ display canvas",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dom Element",
+"description": "Create a HTML Element",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dom Attribute",
+"description": "Set an attribute of a HTML Element",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dom Attribute",
+"description": "Get the value of a attribute of a HTML Element",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dom Add",
+"description": "Add an HTML element create with 'Dom Create' command into an other HTML Element",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dom Content",
+"description": "Set the content of a HTML Element",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dom Content",
+"description": "Return the code HTML contains in a HTML Element",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dom Value",
+"description": "If the HTML Element is a element of form (input, list, radio, option...), you can to set the value of this element (text, selected...)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dom Value",
+"description": "If the HTML Element is a element of form (input, list, radio, option...), return this value (text, selected...)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dom Event",
+"description": "Link an Event Listener on a HTML Element with a AOZ Procedure",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Load CSS",
+"description": "Load a file CSS to add styles rules",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Load CSS",
+"description": "Load a file CSS to add styles rules for a specific media ('screen', 'print'...)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Add CSS Rule",
+"description": "Add a CSS Rule directly in AOZ code",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Load JS",
+"description": "Load a Javascript file",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dom Visible",
+"description": "Show/Hide a HTML Element",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dom Position",
+"description": "Set the Position of a HTML element",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dom Position",
+"description": "Set the Position of a HTML element with a specific measeure unit ('px', 'pt', 'em', '%'...)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dom Size",
+"description": "Resize a HTML element",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dom Size",
+"description": "Resize a HTML element with a specific measeure unit ('px', 'pt', 'em', '%'...)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dom Enabled",
+"description": "Show/Hide a HTML Element",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dom Button",
+"description": "Create a HTML Button",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dom Button",
+"description": "Create a HTML Button with CSS Rules",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dom Layer",
+"description": "Create a HTML Layer (div)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dom Button",
+"description": "Create a HTML Button with CSS Rules",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Display",
+"description": "Set the resolution of the display in pixels.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Draw Image",
+"description": "Draw an image loaded with 'Load Asset' command, in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Draw Image",
+"description": "Draw an image loaded with 'Load Asset' command, in the current screen, with a specific size",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Audio Loop On",
+"description": "Repeat the playing at the end of audio.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Audio Loop Off",
+"description": "Stop the repeat the playing at the end of audio.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Play Audio",
+"description": "Play an audio file from the memory",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Stop Audio",
+"description": "Stop an audio loaded with the 'Load Asset' command.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Pause Audio",
+"description": "Pause an audio loaded with the 'Load Asset' command.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Volume Audio",
+"description": "Set the volume of an audio loaded with the 'Load Asset' command.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Time Audio",
+"description": "Set the position of an audio loaded with the 'Load Asset' command.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Time Audio",
+"description": "Return the position of audio",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Video Loop On",
+"description": "Repeat the playing at the end of video loaded with the 'Load Asset' command.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Video Loop Off",
+"description": "Stop Repeat the playing at the end of video",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Play Video",
+"description": "Play a video loaded with the 'Load Asset' command",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Stop Video",
+"description": "Stop a video loaded by the 'Load Asset' command.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Pause Video",
+"description": "Pause a video loaded with the 'Load Asset' command.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Volume Video",
+"description": "Set the video volume",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Time Video",
+"description": "Set the position of video in seconds",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Time Video",
+"description": "Return the position of video in seconds",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Draw Video",
+"description": "Draw a video loaded with the 'Load Asset' command on the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Draw Video",
+"description": "Draw a video loaded with the 'Load Asset' command on the current screen with a specific size",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Video Bob",
+"description": "Assign a video loaded with the 'Load Asset' command as a Bob Image",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Video Bob",
+"description": "Assign a video loaded with the 'Load Asset' command as a Bob Image width a specific size",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Video Bob",
+"description": "Assign a video loaded with the 'Load Asset' command as a Bob Image with Chroma key on a color",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Load Image",
+"description": "Load an image into a screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Load Iff",
+"description": "Load an IFF image into a screen (deprecated, use 'Load Image')",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Save Iff",
+"description": "Save an IFF image out of a screen (deprecated, use 'Save Image')",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Load",
+"description": "Load a previously saved memory bank, or a set of banks",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "BLoad",
+"description": "Load a binary file into a bank",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "BSave",
+"description": "Save the content of a bank to a binary file",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Save",
+"description": "Save a memory banks to a file. This file can later be loaded with 'Load'",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Save To",
+"description": "Save one or several memory banks to a file. This file can later be loaded with 'Load'",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "DFree",
+"description": "Returns the amount of free space of the disc pointed to by the current path",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MkDir",
+"description": "Creates a new directory",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Open Random",
+"description": "Open a random access file",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Open Random",
+"description": "Open a file for input only",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Open Out",
+"description": "Open a file for input only. The file is replaced by the new one",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Append",
+"description": "Open a file for output, and add content at the end of it",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Assign",
+"description": "Assign a name to a file or device",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Field",
+"description": "Define a record structure for a random access file",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Put",
+"description": "Output a record to a random access file",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Get",
+"description": "Read a record from a random access file",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "LOF",
+"description": "Return the length of a 'Out', 'In' or 'Random access' channel",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "EOF",
+"description": "Indicates if the file pointer of a channel is located at the end of the file",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "POF",
+"description": "Set the position of the file pointer in an open channel (type must be 'Out' ort 'Append')",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "POF",
+"description": "Return the position of the file pointer in an open channel",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Close",
+"description": "Close one or all opened files, and in case of output, save the buffered data into it",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Parent",
+"description": "Change the current directory to the parent directory",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Rename To",
+"description": "Rename a file",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Kill",
+"description": "Delete a file",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Open Port",
+"description": "Open a communication port on the machine",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Port",
+"description": "Return the content of an opened harware port",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "FSel$",
+"description": "Open a file selector and return the name of the selected file",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dir First$",
+"description": "List the indicated path internally and return the first file in the list",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dir Next$",
+"description": "Return the next file in the list generated by Dir First$",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Exist",
+"description": "Indicates if a file or directory exists on the disc",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "File Length",
+"description": "Return the length in bytes of a file",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dir",
+"description": "List a directory in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Dir",
+"description": "Changes the current y",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Disc Info$",
+"description": "Return information about the current drive",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "LDir",
+"description": "TODO: Output the content of a directory to the printer",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Mask Iff",
+"description": "TODO:Indicate what sections of an IFF file to load the next time the Load IFF instruction is used",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Command Line$",
+"description": "Reserved variable. Return or set the parameters of the command that has been used to launch thhe application. For HTML applications, will return the section of the URL after '?'",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Command Line$",
+"description": "Reserved variable. Return or set the parameters of the command that has been used to launch thhe application. For HTML applications, will return the section of the URL after '?'",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Input",
+"description": "Set the end of line characters detected when you input from a random access file",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Frame Load",
+"description": "Load frames of an IFF channel into memory",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Frame Play",
+"description": "Play IFF frameson screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "IFF Anim",
+"description": "Play IFF frameson screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dir$",
+"description": "Reserved variable. Change current directory",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Frame Length",
+"description": "Indicates if a file or directory exists on the disc",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Frame Skip",
+"description": "Skip past an animation frame",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Frame Param",
+"description": "Return a parameter after playing a frame",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Get Fonts",
+"description": "Scan the system for new fonts, will scan both Google and Amiga fonts.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Get Disc Fonts",
+"description": "Scan the system for Amiga fonts.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Get Rom Fonts",
+"description": "Scan the system for Google fonts.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Get Font Number",
+"description": "Return the number of fonts available to the application",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Font",
+"description": "Select font for use by Text command in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Font$",
+"description": "Return details of available fonts",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Get Block",
+"description": "Captures a portion of the graphics from a screen into a buffer.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Get Block",
+"description": "Captures a portion of the graphics from a screen into a buffer. (deprecated, use Get Block)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Block Alpha",
+"description": "Set the transparency alpha of a block, that will be applied the next time the block is drawn in one screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Put Block",
+"description": "Draw a previously captured block in the current screen.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Del Block",
+"description": "Destroys an existing Block and free memory",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Get CBlock",
+"description": "Captures a portion of the graphics from a screen into a buffer. (deprecated, use Get Block)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Get CBlock",
+"description": "Captures a portion of the graphics from a screen into a buffer. (deprecated, use Get Block)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Put CBlock",
+"description": "Draw a previously capture block in the current screen. (deprecated, use Put Block)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Del CBlock",
+"description": "Destroys an existing CBlock and free memory (deprecated; use Del Block)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "HRev Block",
+"description": "Flip a block horzontally",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "VRev Block",
+"description": "Flip a block vertically",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Cls To",
+"description": "Clear an area of the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Cls",
+"description": "Clear an area of the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Cls",
+"description": "Clear the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Plot",
+"description": "Draw a pixel in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Point",
+"description": "Return the palette index of a point within the current screen (warning: may return wrong result in PC modedue to anti-aliasing)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Draw To",
+"description": "Draw a line with the current Ink from the last graphical position",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Draw",
+"description": "Draw a line with the current Ink between two points in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Draw",
+"description": "Draw a line with the current Ink from the top-left to bottom-right corners of an area in the curretn screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Ellipse",
+"description": "Draw an ellipse with the current Ink in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Circle",
+"description": "Draw a circle with the current Ink in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bar",
+"description": "Draw a filled rectangle with the current Ink, Pattern in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bar",
+"description": "Draw a filled rectangle with the current Ink, Pattern in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Box",
+"description": "Draw an empty rectangle with the current Ink, Line width and Line Pattern in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Box",
+"description": "Draw an empty rectangle with the current Ink, Line width and Line Pattern in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Paint",
+"description": "Performs a flood-paint of a closed area in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Polyline",
+"description": "Draw a closed empty shape using the current Ink and line parameters for the outline adn the current fill parameters for the inside. The last point is joined to the first point of the list",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Polyline",
+"description": "Draw a closed empty shape using the current Ink and line parameters for the outline adn the current fill parameters for the inside. The last point is joined to the first point of the list",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Polygon",
+"description": "Draw a closed empty shape using the current Ink and line parameters for the outline and the current fill parameters for the inside. The last point is joined to the first point of the list",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Polygon",
+"description": "Draw a closed empty shape using the current Ink and line parameters for the outline and the current fill parameters for the inside. The last point is joined to the first point of the list",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Gr Locate",
+"description": "Position the graphical cursor in the current screen. Next instructions like 'Draw To' (or any graphical instruction wheree the X and Y coordinates are ommited) will starrt from this position",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Text Length",
+"description": "Calculate the width in pixels of a string when draw inthe current screen with the current selected font and font size",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Text Base",
+"description": "Return the position of the base line of a graphical text displayed on the current screen with the current font attributes name and size",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Text",
+"description": "Draw a graphical text on th current screen using the current font and font size",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Paint",
+"description": "Set the painting mode for filled drawing forms like 'Polygon' and 'Bar'",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Pattern",
+"description": "Set the filled area painting pattern",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Line",
+"description": "Set the patterm of the future lines drawn by the 'Draw', 'Draw To', 'Box' etc. instructions",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Ink",
+"description": "Set the index of the colour from the palette of the current screen to use in all future graphical operations",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Gr Writing",
+"description": "Set all graphical operations drawing mode. Warning work in progress incomplete support",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Clip",
+"description": "Clip all further graphical operations in the current screen to a rectangle",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Clip",
+"description": "Clip all further graphical operations in the current screen to a rectangle",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Clip",
+"description": "Removes the clipping rectangle and allow drawing on the whole surface of the screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Tempras. (deprecated, has no effect)",
+"description": "",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Paste Icon",
+"description": "Draw an icon from the Icons bank into a screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Paste Icon",
+"description": "Draw an icon from the Icons bank into a screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Make Icon Mask",
+"description": "Create a transparency mask out of the full black color of an image in Icons bank (RGB = $000000)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Make Icon Mask",
+"description": "Create a transparency mask out of the full black color of an image in the Images bank (RGB = $000000)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "No Icon Mask",
+"description": "Removes the transparency mask of an icon in the Icons bank, turning the icon fully opaque",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "No Icon Mask",
+"description": "Removes the transparency mask of an image in the Images bank, turning the image full opaque",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Icon",
+"description": "Inserts an empty icon in Icons bank",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Ins Icon To",
+"description": "Inserts a number of empty icons in the Icons bank",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Del Icon",
+"description": "Delete an icon Icons bank",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Del Icon To",
+"description": "Delete a range of icons from the image bank",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Get Icon",
+"description": "Captures a portion of the current screen and add the image to the Icons bank.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Get Icon",
+"description": "Captures a portion of the given screen and add the image to the Icons bank.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Get Icon",
+"description": "Captures a portion of the current screen and add the image to the Icons bank",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Get Sprite",
+"description": "Captures a portion of the given screenand add the image to the image bank",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Get Icon Palette",
+"description": "Copy the colour palette from the Icons bank to the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Icon Base",
+"description": "Returns the address of the Icon whose number is specified in brackets. Not implemented in AOZ",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Prg State",
+"description": "Return the status of how the current program was originally run. May be implemented in AOZ.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Prg First$",
+"description": "Used to handle multiple applications in the AMOS IDE. May be implemented.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Prg Next$",
+"description": "Used to handle multiple applications in the AMOS IDE. May be implemented in AOZ.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "System",
+"description": "Leave AMOS IDE. May be implemented in AOZ.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "PRun",
+"description": "Used to handle multiple applications in the AMOS IDE. May be implemented in AOZ.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "BGrab",
+"description": "Used to handle multiple applications in the AMOS IDE. May be implemented in AOZ.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Close Editor",
+"description": "Used to close the AMOS IDE. May be implemented in AOZ.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Accessory",
+"description": "Define an accessory program. May be implemented in AOZ.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Call Editor",
+"description": "Send instructions to the Editor from an accessory program. May be implemented in AOZ.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Ask Editor",
+"description": "Return parameters from the Editor to an accessory program. May be implemented in AOZ.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Monitor",
+"description": "Used to call AMOS Professional Monitor. May be implemented in AOZ.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Kill Editor",
+"description": "Used to remove the AMOS Professional Editor from memory. May be implemented in AOZ.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "BStart",
+"description": "Return the address of a memory bank from a previous program. May be implemented in AOZ IDE for accessories",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "BStart",
+"description": "Return the length of a memory bank from a previous program. May be implemented in AOZ IDE for accessories",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "BStart",
+"description": "Transfer a memory bank from the current program to the previous program. May be implemented in AOZ IDE for accessories",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Inkey$",
+"description": "Checks to see if a key has been pressed, and reports back its value in a string",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Input$",
+"description": "This function loads a given number of characters into a string variable, waiting for the user to enter each character in turn.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Input",
+"description": "The INPUT command is used to enter information into one or more variables, separated byy commas",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Line Input",
+"description": "The LINE INPUT instruction is identical in usage to INPUT, except that is uses a press of the [Return] key to separate each value you enter via the keyboard instead of a comma.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Key Speed",
+"description": "Change key repeat speed. Not implented in HTML applications, maybe later in executable applications",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Key State",
+"description": "Test for a specific key press",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Key Shift",
+"description": "Test the status of control keys",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Put Key",
+"description": "Load a string of characters directly into the keyboard buffer, enabling you to simulate user typing (in INPUT functions for example)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "ScanCode",
+"description": "Return the scancode of a key entered with INKEY$",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "ScanShift",
+"description": "Return shift status of key entered with INKEY$",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Clear Key",
+"description": "Re-set the keyboard buffer. Might not have an effect on all platforms.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Wait Key",
+"description": "This simple command waits for a single key-press before acting on the next instruction",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Key$",
+"description": "Reserved variable. Define a keyboard macro",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Scan$",
+"description": "Return a scan-code for use with Key$",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Hide On",
+"description": "Hide the mouse pointer (Deprecatred, use 'Hide')",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Hide",
+"description": "Hide the mouse pointer",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Show On",
+"description": "Show the mouse pointer (Deprecatred, use 'Hide')",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Show",
+"description": "Show the mouse pointer",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Show",
+"description": "Change the shape of the pointer arrow",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "X Mouse",
+"description": "Reserved Variable. Returns / Set the horizontal coordinate of the mouse. Note: setting the coordinate may not work on all platforms and in HTML applications.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Y Mouse",
+"description": "Reserved Variable. Returns / Set the vertical coordinate of the mouse. Note: setting the coordinate may not work on all platforms and in HTML applications.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Mouse Key",
+"description": "Return the status of the mouse buttons",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Mouse Click",
+"description": "Check for click of mouse button. This is similar to MOUSE KEY, but instead of checking to see whether or not a mouse button is held down, MOUSE CLICK is only interested in whether the user has just made a single click on a mouse button.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Limit Mouse",
+"description": "Change the shape of the pointer arrow",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Limit Mouse",
+"description": "Change the shape of the pointer arrow",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Limit Mouse",
+"description": "Without parameters, restore the displacement of the mouse to the whole screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Mouse Wheel",
+"description": "Return the movement of the mouse wheel",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Create Maps",
+"description": "Create a maps set width a specific size",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Add Map",
+"description": "Add a new map to the current maps set.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Remove Map",
+"description": "Remove a map from the current maps set.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Insert Map",
+"description": "Insert a new map int the current maps set at the position given",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Load Maps",
+"description": "Load a maps file. File must be one of these formats : aozmap or json (Tiled)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Load Tileset",
+"description": "Load a maps file, and create the associated bobs to use as tiles. File must be a tileset exported as JSON format",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Map Index",
+"description": "Return the index of map associated to a map view.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Map Index",
+"description": "Link a map to a map view",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Map Width",
+"description": "Return the number of tiles in width of a map view",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Map Height",
+"description": "Return the number of tiles in height of a map view",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Tile Value",
+"description": "Return the value of a tile of a Map View",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Tile Value",
+"description": "Return the value of a tile of a Map View for a position XY",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "SetTileValue",
+"description": "Set the value of a tile of a Map View",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "SetTileValue",
+"description": "Set the value of a tile of a Map View",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "",
+"description": "",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "ResetMaps",
+"description": "Reset the maps set and clean all the maps datas",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapCount",
+"description": "Return the number of maps in the current maps set",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapView Copy",
+"description": "Store the actual state of a map view",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapView Restore",
+"description": "Restore the state of a map view stored by 'MapView Copy' commands",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapView Open",
+"description": "Open a view to display a map on the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapView Close",
+"description": "Close a map view opened with the 'MapView Open' commands.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapView Offset",
+"description": "Scrolling  of the map into the map view",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapView Display",
+"description": "Set the position of the map view on the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapView Display",
+"description": "Set the position and the size of the map view on the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapView Offset X",
+"description": "",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapView Offset Y",
+"description": "",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapView Offset Z",
+"description": "",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapView Redraw",
+"description": "Redraw the map view on the screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapView Redraw",
+"description": "Redraw the map view on the screen with a background color",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapTile Ref",
+"description": "Link a image of the images bank to a tile value",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapTile Ref",
+"description": "Link a image of the images bank to a tile value for a specific map view",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapTile Size",
+"description": "Set the width and height of the map tiles in pixel",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapTile Size",
+"description": "Set the width and height of the map tiles in pixel for a specific map view",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapTile Width",
+"description": "Return the width of the tiles map for a specific map view",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapTile Height",
+"description": "Return the wheight of the tiles map for a specific map view",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapTile Count",
+"description": "Return the number of a specifis tile value in map view",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapTile Find",
+"description": "Return the first number of tile on the map view where is tile value asked",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapTile Next",
+"description": "Return the next number of tile on the map view after to had called the 'MapTile Find' command.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapTile X",
+"description": "Return the horizontal position in pixel of a tile in the map view.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapTile Y",
+"description": "Return the vertical position in pixel of a tile in the map view.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapTile Test",
+"description": "Return the index of tile at the position x and y on a map view",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Create Maps",
+"description": "Create a maps set width a specific size",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Add Map",
+"description": "Add a new map to the current maps set.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Remove Map",
+"description": "Remove a map from the current maps set.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Insert Map",
+"description": "Insert a new map int the current maps set at the position given",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Load Maps",
+"description": "Load a maps file. File must be one of these formats : aozmap or json (Tiled)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Load Tileset",
+"description": "Load a maps file, and create the associated bobs to use as tiles. File must be a tileset exported as JSON format",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Map Index",
+"description": "Return the index of map associated to a map view.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Map Index",
+"description": "Link a map to a map view",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Map Width",
+"description": "Return the number of tiles in width of a map view",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Map Height",
+"description": "Return the number of tiles in height of a map view",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Tile Value",
+"description": "Return the value of a tile of a Map View",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Tile Value",
+"description": "Return the value of a tile of a Map View for a position XY",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "SetTileValue",
+"description": "Set the value of a tile of a Map View",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "SetTileValue",
+"description": "Set the value of a tile of a Map View",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "",
+"description": "",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "ResetMaps",
+"description": "Reset the maps set and clean all the maps datas",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapCount",
+"description": "Return the number of maps in the current maps set",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapView Copy",
+"description": "Store the actual state of a map view",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapView Restore",
+"description": "Restore the state of a map view stored by 'MapView Copy' commands",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapView Open",
+"description": "Open a view to display a map on the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapView Close",
+"description": "Close a map view opened with the 'MapView Open' commands.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapView Offset",
+"description": "Scrolling  of the map into the map view",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapView Display",
+"description": "Set the position of the map view on the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapView Display",
+"description": "Set the position and the size of the map view on the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapView Offset X",
+"description": "",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapView Offset Y",
+"description": "",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapView Offset Z",
+"description": "",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapView Redraw",
+"description": "Redraw the map view on the screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapView Redraw",
+"description": "Redraw the map view on the screen with a background color",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapTile Ref",
+"description": "Link a image of the images bank to a tile value",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapTile Ref",
+"description": "Link a image of the images bank to a tile value for a specific map view",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapTile Size",
+"description": "Set the width and height of the map tiles in pixel",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapTile Size",
+"description": "Set the width and height of the map tiles in pixel for a specific map view",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapTile Width",
+"description": "Return the width of the tiles map for a specific map view",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapTile Height",
+"description": "Return the wheight of the tiles map for a specific map view",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapTile Count",
+"description": "Return the number of a specifis tile value in map view",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapTile Find",
+"description": "Return the first number of tile on the map view where is tile value asked",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapTile Next",
+"description": "Return the next number of tile on the map view after to had called the 'MapTile Find' command.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapTile X",
+"description": "Return the horizontal position in pixel of a tile in the map view.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapTile Y",
+"description": "Return the vertical position in pixel of a tile in the map view.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MapTile Test",
+"description": "Return the index of tile at the position x and y on a map view",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Fix",
+"description": "Set the number of decimal of floating point numbers to ASCII conversion (used in both Print and =Str$())",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Radian",
+"description": "Set the default angle representation in AOZ to Radians.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Degree",
+"description": "Set the default angle representation in AOZ to degrees.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Rnd",
+"description": "Return a random number",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Randomize",
+"description": "Switch the random number generator to Mersenne Twist and generate a new seed.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Randomize",
+"description": "Return the sign of a number",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Abs",
+"description": "Return the absolute value of a number",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Int",
+"description": "Return the greatest integer number below the given value",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "PI#",
+"description": "Return the value of PI",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Min",
+"description": "Return the minimal value of two numbers",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Min",
+"description": "Compares two strings and return the one beginning with the minimal ASCII representation value",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Max",
+"description": "Return the maximal value of two numbers",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Max",
+"description": "Compares two strings and return the one beginning with the maximal ASCII representation value",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sin",
+"description": "Return the Sine of an angle",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Cos",
+"description": "Return the Cosine of an angle",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Tan",
+"description": "Return the Tangent of an angle",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "ASin",
+"description": "Return the Arc Sine of a number",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "ACos",
+"description": "Return the Arc Cosine of a number",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "ATan",
+"description": "Return the Arc Tangent of a number",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "HSin",
+"description": "Return the Hyperbolic Sine of a number",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "HCos",
+"description": "Return the Hyperbolic Cosine of a number",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "HTan",
+"description": "Return the Hyperbolic Tangent of a number",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sqr",
+"description": "Return the square root of a number",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Log",
+"description": "Return the base 10 logarythm of a number",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Ln",
+"description": "Return the Neperian Logarythm of a number",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Exp",
+"description": "Return the exponantial of a number",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Poke",
+"description": "Change a one-byte word at a memory address",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Doke",
+"description": "Change a two-byte word at a memory address. Value is set in little-endian in PC mode and big-endian in Amiga mode",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Loke",
+"description": "Change a four-byte word at a memory address. Value is set in little-endian in PC mode and big-endian in Amiga mode",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Poke$",
+"description": "Write the ascii values of a string in memory",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Peek$",
+"description": "Read a string from memory",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Peek",
+"description": "read a byte from an address",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Deek",
+"description": "Read a two-bytes value from an address. Value is read in little-endian in PC mode and big-endian in Amiga mode",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Leek",
+"description": "Read a four-bytes value from an address. Value is read in little-endian in PC mode and big-endian in Amiga mode",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Free",
+"description": "Return the amount of free memory on the machine. Warnign, not tested and maybe deprecated in the future./ The original AMOS instruction reported the amount of free memory in the variable buffer area",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Chip Free",
+"description": "Return the amount of free memory on the machine. Warnign, not tested and maybe deprecated in the future./ The original AMOS instruction reported the amount of free chip memory of the machine, which has no meaning tocay",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Fast Free",
+"description": "Return the amount of free memory on the machine. Warnign, not tested and maybe deprecated in the future./ The original AMOS instruction reported the amount of free fast memory of the machine, which has no meaning tocay",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Fill",
+"description": "fill memory block with the contents of a variable.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Copy",
+"description": "Copy a memory block",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Hunt",
+"description": "Find a string of characters in memory",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "BSet",
+"description": "Set a bit of a variable to 1",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "BClr",
+"description": "Set a bit of a variable to 0",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "BChg",
+"description": "Toggle a bit of a variable",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "BTst",
+"description": "Test a bit in an interger number",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Ror.b",
+"description": "Rotate the content of an integer variable to the right on the first 8 bits",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Ror.w",
+"description": "Rotate the content of an integer variable to the right on the first 16 bits",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Ror.l",
+"description": "Rotate the content of an integer variable to the right on 32 bits",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Rol.b",
+"description": "Rotate the content of an integer variable to the left on the first 8 bits",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Rol.w",
+"description": "Rotate the content of an integer variable to the left on the first 16 bits",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Rol.l",
+"description": "Rotate the content of an integer variable to the left on 32 bits",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Exec",
+"description": "Execute a system command. This instruction will be implemented in executable and node.js transpiled applications",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Stack",
+"description": "Deprecated, wa used to set the stack space on the Amiga",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Equate Bank",
+"description": "Deprecated, was used on the Amiga",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Call",
+"description": "Deprecated, was used on the Amiga",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "ExeCall",
+"description": "Deprecated, was used on the Amiga",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "GfxCall",
+"description": "Deprecated, was used on the Amiga",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "DosCall",
+"description": "Deprecated, was used on the Amiga",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "IntCall",
+"description": "Deprecated, was used on the Amiga",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "On Menu Del",
+"description": "Delete labels and procedures used by ON MENU. Will be implemented later.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "On Menu ON",
+"description": "Toggle automatic menu selection. Will be implemented later.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "On Menu OFF",
+"description": "Toggle automatic menu selection. Will be implemented later.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Menu To Bank",
+"description": "Save menu definitions into a memory bank. Will be implemented later.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bank To Menu",
+"description": "Restore a menu definition saved in a menu bank. Will be implemented later.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Menu ON",
+"description": "Activate a menu. Will be implemented later.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Menu OFF",
+"description": "Deactivate a menu. Will be implemented later.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Menu Mouse ON",
+"description": "Display the menu at position of mouse cursor",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Menu Mouse OFF",
+"description": "Stop displayiong the menu at position of mouse cursor",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Menu Base",
+"description": "Move the starting position of a menu. Amiga only, will not be implemented.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Menu ... To ..",
+"description": "Move a menu item. Amiga only, will not be implemented.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Menu Key .. To ..",
+"description": "Assign a key to a menu item.. Will be implemented later.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Menu Key .. To ..",
+"description": "Assign a key to a menu item.. Will be implemented later.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Menu Bar",
+"description": "Display menu items as a vertical bar. Will not be implemented.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Menu Line",
+"description": "Display menu items as a horizontal bar. Will not be implemented.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Menu TLine",
+"description": "Display menu items as a total horizontal bar. Will not be implemented.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Menu Movable",
+"description": "Activate automatic menu movement. Will not be implemented.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Menu Static",
+"description": "Stop automatic menu movement. Will not be implemented.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Menu Item Static",
+"description": "Fix items in static positions. Will not be implemented.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Menu Item Movable",
+"description": "Move individual menu options. Will not be implemented.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Menu Active",
+"description": "Activate a menu item. Will be implemented later.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Menu Inactive",
+"description": "Deactivate a menu item. Will be implemented later.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Menu Separate",
+"description": "Separate a list of menu items. Will not be implemented.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Menu Link",
+"description": "Link a list of menu items. Will be implemented later.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Menu Called",
+"description": "Re-draw a menu item continually. Will not be implemented.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Menu Once",
+"description": "Turn off automatic re-drawing. Will not be implemented.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Menu Del",
+"description": "Delete one or more menu items. Will be implemented later.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "X Menu",
+"description": "Return the graphical x-coordinate of a menu item. Will not be implemented.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Y Menu",
+"description": "Return the graphical x-coordinate of a menu item. Will not be implemented.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Menu$",
+"description": "Reserved variable: define a menu title or option. Will be implemented later.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Choice",
+"description": "Read a menu item. Will be implemented later.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "On Menu Proc",
+"description": "Automatic menu selection. Will be implemented later.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "On Menu Gosub",
+"description": "Automatic menu selection. Will be implemented later.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "On Menu Goto",
+"description": "Automatic menu selection. Will be implemented later.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Open URL",
+"description": "Open a URL in the current tab",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Open URL",
+"description": "Open a URL in a named Tab",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Call Service",
+"description": "Call a service and execute a request",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Call Service",
+"description": "Call a service and execute a request in POST method and wait a JSON response",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Test URL",
+"description": "Test the existing of an URL and store True or False in the response",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "URL Exists",
+"description": "Return True or False if the URL tested with 'Test URL' command exists",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Rainbow",
+"description": "Define a new Rainbow effect",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Rainbow",
+"description": "Define the display of a rainbow already create with 'Set Rainbow'",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Rainbow Del",
+"description": "Destroys a Rainbow",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "REXX Open",
+"description": "Open an REXX communication port. Maybe implemented later.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "REXX Close",
+"description": "Close the REXX communication port. Maybe implemented later.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "REXX Wait",
+"description": "Wait for a message from an AREXX program. Maybe implemented later.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "REXX Answer",
+"description": "answer a message from an AREXX program. Maybe implemented later.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "REXX$",
+"description": "Get a message from an REXX program. Maybe implemented later.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "REXX",
+"description": "Get a message from an REXX program. Maybe implemented later.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Open",
+"description": "Open a new screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen close",
+"description": "Destroys the current screen or a given screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Clone",
+"description": "Create an exact and synchronized copy of the current screen that can be displayed at another position and Z-order. Both screen share the same internal pixel buffers. Graphical operations are fobidden in the cloned screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Hide",
+"description": "Make a screen disappear from display. The screen will remain active and drawing operation are still possible after this instruction",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Show",
+"description": "Make a hidden screen reappear on display",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Swap",
+"description": "Swaps the physical and logical buffers of a screen. (Deprecated in AOZ, legacy instruction, has no real effect)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Display",
+"description": "Defines the display position and width of a screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Center",
+"description": "Enforces the centering of a screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Offset",
+"description": "Set the offet in the internal screen buffer of the top-left diplayed pixel, allowing scrollings",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen To Front",
+"description": "Change the display order of the screen, and passes the screen in front of all other screens",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen To Back",
+"description": "Change the display order of the screen, and passes the screen behind all other screens",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Hotspot",
+"description": "Set the hot-spot of a screen to a given coordinate. The hot-spot is the position within the screen where the Screen Offset will have effect and around which rotation will be done",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Hotspot",
+"description": "Set the hot-spot of a screen to a given coordinate. The hot-spot is the position within the screen where the Screen Offset will have effect and around which rotation will be done",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Rotate",
+"description": "Rotate a screen around it's hot-spot on display. Warning, on software rendererss this instruction will slow down the application",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Rotate",
+"description": "Rotate the current screen around it's hot-spot on display. Does not affect the content of the screen. Warning, on software rendererss this instruction will slow down the application",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Skew",
+"description": "Applies a horizontal and vertical distortion to a screen during the display process",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Skew",
+"description": "Applies a horizontal and vertical distortion to the current screen during the display process. Does not affect the content of the screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Scale",
+"description": "Resize a screen during the display process. Does not affect the content of the screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Scale",
+"description": "Resize the current screen during the display process. Does not affect the content of the screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Copy To",
+"description": "Copy an area from one screen to another or itself, resizing the area",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Copy To",
+"description": "Copy an area from one screen to another or itself, preserving the proportion of the area",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Copy To",
+"description": "Copy one screen to another",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Copy",
+"description": "Copy an area from one screen to another or itself, resizing the area",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Copy",
+"description": "Copy an area from one screen to another or itself, preserving the size of the area",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "X Screen",
+"description": "Convert a hardware horizontal coordinate into a screen coordinate. Hardware coordinates are different from screen coordinate only in retro-machine display emulation (Amiga, Atari etc.)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "X Screen",
+"description": "Convert a hardware horizontal coordinate into a coordinate in the current active screen. Hardware coordinates are different from screen coordinate only in retro-machine display emulation (Amiga, Atari etc.)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Y Screen",
+"description": "Convert a hardware vertical coordinate into a screen coordinate. Hardware coordinates are different from screen coordinate only in retro-machine display emulation (Amiga, Atari etc.)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Y Screen",
+"description": "Convert a hardware vertical coordinate into a coordinate in the current active screen. Hardware coordinates are different from screen coordinate only in retro-machine display emulation (Amiga, Atari etc.)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Def Scroll To",
+"description": "Define a new scrolling zone in the current screen. This instruction has no visible effect until a 'Scroll' instruction is used",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Def Scroll",
+"description": "Define a new scrolling zone in the current screen. This instruction has no visible effect until a 'Scroll' instruction is used",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Scrollt",
+"description": "Performs the action of scrolling for a pre-defined scrolling area. Moves the pixels in the desired direction. The empty zones at the extremities of the scrollign area, on left, top and/or right and bottom are left unchanged and will have to be cleared",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dual Playfield",
+"description": "Associate the display of two screens into a parallax display. (Deprecated, use 'Set Transparent' and 'Screen Offset' to associate more than two screens together)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dual Priority",
+"description": "Set the display priority of two screens associate in Dual Playfield. (Deprecated, use 'Set Transparent' and 'Screen Offset' to associate more than two screens together, and then 'Screen To Front' or 'Screen To Back' to handle the display priority)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Phybase",
+"description": "Return the address of the first pixel in the bitmap buffer of the current screen (deprecated, there is no difference between logical and physical screen buffers in AOZ)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Logbase",
+"description": "Return the address of the first pixel in the bitmap buffer of the current screen (deprecated, there is no difference between logical and physical screen buffers in AOZ)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Physic",
+"description": "Return a magical number representing the physical buffer of the current screen, to be used in 'Screen Copy' and all Screen instructions that necessitate a Screen Index. (deprecated, no such thing as physical or logic al screen in AOZ)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Logic",
+"description": "Return a magical number representing the logical buffer of the current screen, to be used in 'Screen Copy' and all Screen instructions that necessitate a Screen Index. (deprecated, no such thing as physical or logic al screen in AOZ)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Autoback",
+"description": "Set the autoback background preservation system for graphical instruction (Deprecated, has no effect in AOZ)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Appear",
+"description": "Progressively draw one screen into another using a fading effect",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Zoom",
+"description": "Copy and scale a rectangle from one screen to another.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Zoom",
+"description": "Copy and scale a rectangle from one screen to another.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "XGr",
+"description": "Return the current horizontal coordinate of the graphical cursor in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "XGr",
+"description": "Return the current vertical coordinate of the graphical cursor in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Reserve Zone",
+"description": "Reserve memory to store graphical detection zones in the current screen (deprecated: number of zonme is unlimited in AOZ)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "ScIn",
+"description": "Check if the given hardware coordinates are located above a given screen on display. Hardware coordinate are only different from screen coordinate for retro-machine emulation (Amiga, Atari etc.)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "ScIn",
+"description": "Find the top-most screen on display located under the given hardware coordinates. Hardware coordinate are only different from screen coordinate for retro-machine emulation (Amiga, Atari etc.)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Mouse Screen",
+"description": "Return the index of the screen under the mouse",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Colour",
+"description": "Return the number of colours in the palette of a given screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Colour",
+"description": "Return the number of colours in the palette of the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Base",
+"description": "Not implemented, deprecated, will return 0",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Width",
+"description": "Return the width in pixels of a given screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Width",
+"description": "Return the width in pixels of the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Height",
+"description": "Return the height in pixels of a given screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Height",
+"description": "Return the height in pixels of the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen",
+"description": "Set the given screen index as the current screen, all graphical operation being directed to this screen after this instruction",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen",
+"description": "Return the index of the current screen, -1 if no screen is opened when the function is called",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Hires",
+"description": "Return a magical number to be used in the 'Screen Open' instruction, enforce a horizontal compression by half of the pixels",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Lowres",
+"description": "Return a magical number to be used in the 'Screen Open' instruction, display pixel with their original horizontal ratio",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Laced",
+"description": "Return a magical number to be used in the 'Screen Open' instruction, enforce a vertical compression by half of the pixels",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Halfbright",
+"description": "Return a magical number to be used in the 'Screen Open' instruction, and set the screen in Amiga-compatible Halfbright colour mode",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "X Hard",
+"description": "Converts a horizontal coordinate in a given screen to its equivalent in hardware coordinates taking into account the position, scale and rotation factor of the screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "X Hard",
+"description": "Converts a horizontal coordinate in the current screen to its equivalent in hardware coordinates taking into account the position, scale and rotation factor of the screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Y Hard",
+"description": "Converts a vertical coordinate in a given screen to its equivalent in hardware coordinates, taking into account the position, scale and rotation factor of the screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Y Hard",
+"description": "Converts a vertical coordinate in the current screen to its equivalent in hardware coordinates taking into account the position, scale and rotation factor of the screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Alpha",
+"description": "Return the transparency Alpha value of a given colour index in the current screen palette",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Remap",
+"description": "Transforms the values of all the pixels in a rectangle matching a specific RGB value to another RGBA value. Warning, this operation can take a long time to process and make the browser irresponsive during a while",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Remap",
+"description": "Transforms the values of all the pixels in a rectangle matching a specific RGB value to another RGBA value. Warning, this operation can take a long time to process and make the browser irresponsive during a while",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Remap",
+"description": "Transforms the values of all the pixels in the current screen matching a specific RGB value to another RGBA value. Warning, this operation can take a long time to process and make the browser irresponsive during a while",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Mode",
+"description": "Return the 'mode' parameter of a screen, as used in the 'Screen Open' instruction",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Hot Spot",
+"description": "Set the hot-spot of the current screen. The pixel displayed at the coordinates set by 'Screen Offset' will be located at these coordinates inside of the screen, and the screen will be shifted on the display",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Hot Spot",
+"description": "Set the hot-spot of the given screen. The pixel displayed at the coordinates set by 'Screen Offset' will be located at these coordinates inside of the screen, and the screen will be shifted on the display",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Screen Hot Spot",
+"description": "Calculates the hot-spot of the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Double Buffer",
+"description": "Turns the display system into double-buffering. Deprecated: Double Buffering has no effect in AOZ",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Transparent ..., ..., ...",
+"description": "Set one or more colours of the current screen as transparent. Will invoke a complete remapping of the screen that migght take a long time. Use this instruction to make parralax scrolling diplays",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Stop Transparent",
+"description": "Set one or more colours of the current screen as opaque. Will invoke a complete remapping of the screen that migght take a long time.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Alpha ,",
+"description": "Set the alpha of one or more colours in the current screen. This effect of this instruction will only be visible when the next graphical instruction using this coloour are executed.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Socket Connect",
+"description": "Open a connection to a remote server.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Socket Send",
+"description": "Sending data to the remote server, which will be read by other connected users.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Socket Close",
+"description": "Close the connection opened with Socket Connect instruction.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Socket Close",
+"description": "Close the connection opened with Socket Connect instruction, with a code and a reason.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Boom",
+"description": "BOOM command plays a realistic explosive sound effect.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Shoot",
+"description": "Generate percussive sound effect.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bell",
+"description": "Generate pure tone.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sam Play",
+"description": "Play a sound sample from the sample bank",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sam Play",
+"description": "Play a sound sample from the sample bank",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sam Play",
+"description": "Play a sound sample from the sample bank on a voice only, with a frequency",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sam Play",
+"description": "Play a sound sample from the sample bank on a voice only, with a frequency",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sam Stop",
+"description": "Stop one or more samples playing",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Volume",
+"description": "Define the volume of a voice",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Voice",
+"description": "Activate a voice",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Play",
+"description": "Play a voice",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Play",
+"description": "Play a voice",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Play OFF",
+"description": "Stop playing a voice",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Wave",
+"description": "Define a wave form",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Wave",
+"description": "Assign a wave to sound channel",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Noise To",
+"description": "Assign noise wave to sound channel",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sample",
+"description": "Assign noise wave to sound channel",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Del Wave",
+"description": "Delete a wave",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Envel",
+"description": "Create a volume envelope",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Led ON",
+"description": "Toggle audio filter. Only for Amiga emulation.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Led OFF",
+"description": "Toggle off audio filter. Only for Amiga emulation.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "VuMeter",
+"description": "Return the volume level of a voice",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sam Bank",
+"description": "Change the current Samples bank",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sam Raw",
+"description": "Play a raw sample from memory",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sam Loop ON",
+"description": "Start repetition of a sample",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sam Loop OFF",
+"description": "Start repetition of a sample",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "SLoad",
+"description": "Load a section of a sample",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "SSave",
+"description": "Load a section of a sample",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sam Swap",
+"description": "Activate sample switching. Deprecated, will not have any effect, Amiga legacy.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sam Swap",
+"description": "Test for successful sample swap. Deprecated, will not have any effect, Amiga legacy.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Music",
+"description": "Play a piece of AMOS Professional format music. May not be implemented in favor of tracker musics.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Music Stop",
+"description": "Stop an AMOS Professional music. May not be implemented in favor of tracker musics.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Music Stop",
+"description": "Turn off all musics. May not be implemented in favor of tracker musics.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MVolume",
+"description": "Set the volume of a piece of music. May not be implemented in favor of tracker musics.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "MVolume",
+"description": "Change the speed of a piece of music. May not be implemented in favor of tracker musics.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sprite",
+"description": "Changes the image of a sprite",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sprite",
+"description": "Changes the image of a sprite",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sprite",
+"description": "Creates or sets the position of a sprite",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sprite",
+"description": "Creates or sets the position of a sprite",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sprite Show",
+"description": "Make a sprite visible on screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sprite Hide",
+"description": "Make a sprite invisible",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sprite Off",
+"description": "Destroys all or one sprite",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sprite Priority",
+"description": "Turns on or off automatic sorting of the Z-order of the sprites in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sprite Update Off",
+"description": "Turns off the automatic sprite coordinate update system. After it, all 'Sprite' instruction will no longer have a visible effect until an 'Sprite Update' instruction is used",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sprite Update On",
+"description": "Turns on the automatic sprite coordinate update system. After it, the effect of all 'Sprite' instructions will be visible on display",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sprite Update",
+"description": "Enforce a refresh of all the sprites on screen: all the modification to the coordinates and images of the sprite are reflected immediately on the screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sprite Scale",
+"description": "Changes the scale (zoom) of a sprite",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sprite Rotate",
+"description": "Rotates a sprite around it's hot-spot",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sprite Skew",
+"description": "Distorts a sprite horizontally or vertically",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "X Sprite",
+"description": "Returns the horizontal coordinate of the sprite",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Y Sprite",
+"description": "Returns vertical coordinate of the sprite",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "I Sprite",
+"description": "Returns the index of the current image displayed by the Bob",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "I Sprite$",
+"description": "Returns the index of the current image displayed by the Bob",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "IsSprite",
+"description": "Checks if a sprite is defined without generating an error",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Get Sprite",
+"description": "Captures a portion of the current screen, create a transparency mask out of true black (RGB #000000) and add the image to the Images bank. (Deprecated, use 'Get Image')",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Get Sprite",
+"description": "Captures a portion of the given screen, create a transparency mask out of true black (RGB #000000) and add the image to the imImagesage bank. (Deprecated, use 'Get Image')",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Get Sprite",
+"description": "Captures a portion of the current screen, create a transparency mask out of true black (RGB #000000) and add the image to the Images bank. (Deprecated, use 'Get Image')",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Get Sprite",
+"description": "Captures a portion of the given screen, create a transparency mask out of true black (RGB #000000) and add the image to the Images bank. (Deprecated, use 'Get Image')",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Get Sprite Palette",
+"description": "Copy the colour palette from the Images bank to the current screen. (Deprecated, use 'Get Images Palette')",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Asc",
+"description": "Converts the first character of a string into it's ASCII code",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Left$",
+"description": "Return or set the leftmost characters of a string",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Right$",
+"description": "Return or set the rightmost characters of a string",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Mid$",
+"description": "Return or set a portion of a string",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Flip$",
+"description": "Invert a string",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Chr$",
+"description": "Return the character with a given ASCII code",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Space$",
+"description": "Return a string contain the demanded amount of spaces",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "String$",
+"description": "Create a new string from the first character of an existing string",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Upper$",
+"description": "Convert a string of text to upper-case",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Lower$",
+"description": "Convert a string of text to upper-case",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Str$",
+"description": "Convert a number into a string",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Val",
+"description": "Convert a string into a number",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Bin$",
+"description": "Convert a decimal value into a string of binary digits",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Hex$",
+"description": "Convert a decimal value into a string of hexadecimal digits",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Len",
+"description": "Return the length in characters of a string",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Instr",
+"description": "Search for occurrences of one sub-string within another string",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Tab$",
+"description": "Return a string containing the Tab character (ASCII: 9) to be used in a 'Print' statement",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Repeat$",
+"description": "Repeat a string",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "ErrTrap",
+"description": "Return the number of the last Trapped error, and reset the number",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Err$",
+"description": "Return the text of an error message from it's number",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dev Open",
+"description": "Open a device. May be implemented in AOZ, has no effect in current version",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dev Close",
+"description": "Close a device. May be implemented in AOZ, has no effect in current version",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dev Base",
+"description": "Get base address of an IO structure. May be implemented in AOZ later",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dev Do",
+"description": "Call a command using DoI0. May be implemented in AOZ, has no effect in current version",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dev Send",
+"description": "Call a command using SendIO. May be implemented in AOZ, has no effect in current version",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dev Abort",
+"description": "Abort an IO operation. May be implemented in AOZ, has no effect in current version",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dev Check",
+"description": "Check status of a device with a CheckIO. May be implemented in AOZ, has no effect in current version",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dev First$",
+"description": "Get the first device from the current device list. May be implemented in AOZ, has no effect in current version",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dev Next$",
+"description": "Get the next device from the current device list. May be implemented in AOZ, has no effect in current version",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Lib Open",
+"description": "Open a library. May be implemented in AOZ (for example for Windows DLLs), has no effect in current version",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Lib Close",
+"description": "Close a library. May be implemented in AOZ (for example for Windows DLLs), has no effect in current version",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Lib Call",
+"description": "Call a function from the libraryEnd Function. May be implemented in AOZ (for example for Windows DLLs), has no effect in current version",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Lib Base",
+"description": "Get the base address of the library. May be implemented in AOZ, has no effect in current version",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Wind Open",
+"description": "Open a new text window in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Wind Close",
+"description": "Close the current text window",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Wind Save",
+"description": "Save the character content of the the currenttext window so that it can be restored later",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Wind Move",
+"description": "Move the current text window horizontally and vertically",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Wind Size",
+"description": "Resize the current text window horizontally and vertically",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Window",
+"description": "Activate the given window in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Windon",
+"description": "Return the index of the current window in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Locate",
+"description": "Set the position of the text5 cursor of the current windowin the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Clw",
+"description": "Clear the current text window with the Paper color, and restores the cursor at position 0, 0",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Home",
+"description": "Move the text cursor at position 0, 0. The next text output with a 'Print' instructions will be locate on the top-left of the windows",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Curs Pen",
+"description": "Move the text cursor at position 0, 0. The next text output with a 'Print' instructions will be locate on the top-left of the windows",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Pen$",
+"description": "Return a magical string to use in a 'Print' statement and change the colour of the pen used to draw the following texts",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Paper$",
+"description": "Return a magical string to use in a 'Print' statement and change the colour of the paper used to draw the following texts",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Print",
+"description": "Print items inm the currebnt window of the current screen. A semi-column at the end of will prevent a new-line",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Print Using",
+"description": "Print formatted text and numbers in the currebnt window of the current screen. A semi-column at the end of will prevent a new-line",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "At",
+"description": "Return a magical string to use in a 'Print' statement that changes the location of the cursor for the next characters",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Pen",
+"description": "Change the colour of the pen used to draw characters during a 'Print' statement",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Paper",
+"description": "Change the colour of the paper used to draw the background space of the characters during a 'Print' statement",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Centre",
+"description": "Display and centre a string in the middle of the current text window at the current vertical position of the text cursor. This instruction will have unpredicatable result if the string is larger than the width of the text window",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Border",
+"description": "Change teh txet window character border to one of the pre-defined ones",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Writing",
+"description": "Define the logical operation done during the display of characters by the 'Print' statement",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Title Top",
+"description": "Display a title in the top of the current text window with a border. Will have no effect if the window has no border",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Title Bottom",
+"description": "Display a title in the bottom of the current text window with a border. Will have no effect if the window has no border",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Curs Off",
+"description": "Hide the text cursor and stop all associated colour animation. Use this instruction before graphical output to speed up the display",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Curs On",
+"description": "Show the text cursor and restarts all associated colour animation",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Inverse On",
+"description": "Switch On inverse printing in the current text window: Pen will be used instead of Paper and vice-versa",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Inverse Off",
+"description": "Switch Off inverse printing in the current text window",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Under On",
+"description": "Switch On underlining",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Under Off",
+"description": "Switch Off underlining",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Shade On",
+"description": "Switch On the display of a shadow associated with text output",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Shade Off",
+"description": "Switch Off the display of a shadow associated with text output",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Scroll On",
+"description": "Turn ON the automatic scrolling of teh content of the current text window when the cursor pass the bottom line",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Scroll Off",
+"description": "Turn OFF the automatic scrolling of teh content of the current text window when the cursor pass the bottom line, enforcing all further printing to be done in the top of the window",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "CUp$",
+"description": "Return a magical string to be used during a 'Print' statement, moving the cursor one line up",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "CDown$",
+"description": "Return a magical string to be used during a 'Print' statement, moving the cursor one line down",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "CLeft$",
+"description": "Return a magical string to be used during a 'Print' statement, moving the cursor one character left",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "CRight$",
+"description": "Return a magical string to be used during a 'Print' statement, moving the cursor one character right",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "CUp",
+"description": "Move the cursor of the current text window one line up. Will force a scrolling of all text down if the cursor is already on the first line and scrolling is enabled",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "CDown",
+"description": "Move the cursor of the current text window one line down. Will force a scrolling of all text up if the cursor is already on the last line and scrolling is enabled",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "CDown",
+"description": "Move the cursor of the current text window one character left. Cursor will wrap to the right and up if it was located at position zero, and eventual generate a scrolling down of the content of the window if scrolling is enabled",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "CRight",
+"description": "Move the cursor of the current text window one character right. Cursor will wrap to the left and down if it was located at the rightmost position, and eventual generate a scrolling up of the content of the window if scrolling is enabled",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Memorize X",
+"description": "Store the horizontal position of the cursor in internal memory so that you can retreive it later",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Memorize Y",
+"description": "Store the vertical position of the cursor in internal memory so that you can retreive it later",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Remember X",
+"description": "Recall the horizontal position of the cursor from internal memory and move the cursor to the position",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Remember Y",
+"description": "Recall the vertical position of the cursor from internal memory and move the cursor to the position",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "CMove$",
+"description": "Return a magical string to be used during a 'Print' statement, moving the cursor by the given character displacements",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "CMove",
+"description": "Move the text cursor by a horizontal and/or vertical displacement",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "CLine",
+"description": "Clear the line (paint with the Paper colour) located at teh current vertical position of the cursor. Does not move the cursor",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "HScroll",
+"description": "Scroll the content of the current window or line by one character horizontally",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "VScroll",
+"description": "Scroll the content of the current window or line by one character vertically",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Tab",
+"description": "Set the width in characters used when printing the TAB character. Default is 4",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Curs",
+"description": "Define the shape of the text cursor",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "X Curs",
+"description": "Return the horizontal position of the text cursor, in text coordinates",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Y Curs",
+"description": "Return the vertical position of the text cursor, in text coordinates",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "X Graphic",
+"description": "Return the graphical horizontal position of a coordinate in the text window coordinate space",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Y Graphic",
+"description": "Return the graphical vertical position of a coordinate in the text window coordinate space",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Border$",
+"description": "Return a magical string understood by the 'Print' statement, enforcing the drawing of a border around the given text",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "X Text",
+"description": "Convert a horizontal coordinate from the graphical coordinate space of the screen hosting the text window in a text coordinate within the window",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Y Text",
+"description": "Convert a vertical coordinate from the graphical coordinate space of the screen hosting the text window in a text coordinate within the window",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Text",
+"description": "Change the style of a font by selecting one of eight different styles",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Text Styles",
+"description": "Return the index reference of the text style you last selected using 'Set Text'",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "HSlider",
+"description": "Draw a horizontal slider bar in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "VSlider",
+"description": "Draw a vertical slider bar in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "HSlider",
+"description": "Draw a horizontal slider bar in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "VSlider",
+"description": "Draw a vertical slider bar in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Slider",
+"description": "Set the fill pattern for the slider bar",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Timer",
+"description": "Reserved variable. Return / Set the number of millisecond since the application was launched. Work in 1/50th of seconds in Amiga emulation",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Track Loop On",
+"description": "Enable the loop playing",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Track Loop Off",
+"description": "Disable the loop playing",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Track Load",
+"description": "Load a module music file into a bank",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Track Play",
+"description": "Play a music module loaded with Track Load instruction",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Track Stop",
+"description": "Stop the current playing of the music module after a call of Track Play instruction",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Track Pause",
+"description": "Pause the current playing of the music module after a call of Track Play instruction",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Track Resume",
+"description": "Continue the current playing of the music module after a call of Track Stop instruction",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Track Title",
+"description": "Return the title of the current music module.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Track Signature",
+"description": "Return the name of the format of the current music module (Protracker or FastTracker).",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Track Length",
+"description": "Return the length of the current music module in number of patterns.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Track Channels",
+"description": "Return the number of channels of the current music module.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Track Position",
+"description": "Return the number of the pattern in playing of the current music module.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Track Position",
+"description": "Return the position into the pattern in playing of the current music module.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Track Volume",
+"description": "Set the global volume of the current music module.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Track Pattern",
+"description": "Jump to a pattern of the current music module.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Track Sam Init",
+"description": "Initialize the samples from a bank number. Note: This instruction replace the current music module by one loaded into the bank.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Track Sam Play",
+"description": "Play a sample stored into the current module.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Track Sam Play",
+"description": "Play a sample stored into the current module.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Track Sam Play",
+"description": "Play a sample stored into the current module.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Med Load",
+"description": "Load a module music file into a bank",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Med Play",
+"description": "Play a music module loaded with Med Load instruction",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Med Play",
+"description": "Play a music module loaded with Med Load instruction",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Med Stop",
+"description": "Stop the current playing of the music module after a call of Med Play instruction",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Med Cont",
+"description": "Continue the current playing of the music module after a call of Med Stop instruction",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Midi On",
+"description": "This instruction is not implemented. It's just for the compatibility with AMOS",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Track Volume",
+"description": "Set the global volume of the current music module.",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Mod",
+"description": "Operator. Calculates the modulo of two numbers",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Not",
+"description": "Operator. Logical NOT, equivalent to ! in other languages",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Swap",
+"description": "Swap the content of two variables",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Shared",
+"description": "Used in a procedure, make the variable visible by the procedure above",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Global",
+"description": "Make a variable visible in the entire application",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Varptr",
+"description": "Return the memory address of a variable so that you can poke in it. May be implemented in AOZ with specific memory emulation and for education purpose",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dim",
+"description": "Define a new array, or a list of arrays. The number of dimension is not limited, yet only by the memory imprint and the machine the application is running on, be careful with large arrays!",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Sort",
+"description": "Sort all elements in an array",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Match",
+"description": "Search an array for a value",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "True",
+"description": "Constant: boolean value TRUE",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "False",
+"description": "Constant: boolean value FALSE",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Is Defined",
+"description": "Test if a variable has been defined. Only valid if automatic definition of variable is switched off when transpiling ( link to tag)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Inc",
+"description": "Add one to the content of a variable",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Dec",
+"description": "Subtract one to the content of a variable",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Add",
+"description": "Quickly add an expression to a numeric variable",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Data",
+"description": "Define a list of values to be read at runtime, either string or numbers, separated by commas. Data can be spread on several lines",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Read",
+"description": "Read the next valkue from the Data section of the code, and move the read-pointer to the next value. The type of the value must be identical to the typ eof the variable (number for numbers, strings for strings)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Restore",
+"description": "Position the data pointer to the beginning of the data definition or the data immediately following a label inside of the code",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Array",
+"description": "Return the memory address of the beginning of an array. May be imploemented in AOZ for education purpose",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Say",
+"description": "Speak a string using the build in voice synthetizer",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Talk",
+"description": "Set the style of the speech",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Talk Misc",
+"description": "Set volume and frequency of speech",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Talk Stop",
+"description": "Stop Speech",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Mouth Read",
+"description": "Start reading the position of animated mouth",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Mouth Width",
+"description": "Start reading the position of animated mouth",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Mouth Width",
+"description": "Start reading the position of animated mouth",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Reset Zone",
+"description": "Erase the definition of a zone, making it non-detectable",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Zone$",
+"description": "Return a magical string to use in the Print instruction when printing text, allowing you to define a zone around the text included as a parameter",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Zone",
+"description": "Define a new zone in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Set Zone",
+"description": "Define a new zone in the current screen",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Zone",
+"description": "Check if a given coordinate lays inside of a pre-defined zone",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Zone",
+"description": "Find the zone located at the given coordinates",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "HZone",
+"description": "Check if a given hardware coordinate lay inside of a zone. Hardware coordinate are only different from screen coordinate for retro-machine emulation (Amiga, Atari etc.)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "HZone",
+"description": "Find the zone located at the given hardware coordinates. Hardware coordinate are only different from screen coordinate for retro-machine emulation (Amiga, Atari etc.)",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Mouse Zone",
+"description": "Return the index of a predefined zone (with 'Set Zone') under the mouse",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Csv Open",
+"description": "Open a CSV channel, enabling you to load, create and later save CSV files",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Csv Load",
+"description": "Open a CSV file iinto the channel",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Csv Save",
+"description": "Save the content of the channel into a CSV file",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Csv Close",
+"description": "Destroys a channel and all data associated",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Csv Column$",
+"description": "Returns the title of a column as a string",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Csv Get$",
+"description": "Returns the content of a cell as a string",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Csv Get",
+"description": "Returns the content of a cell as a number, or 0 if the content cannot be converted to a number",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Csv Get Ascii$",
+"description": "Extracts and return the text content of a cell as string. Returns an empty string if there is no ttext. Use it for cells indicating a currency, like the ones generated by Excel with 1000$ or such",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Csv String$",
+"description": "Return the whole content of a channel as an exportable CSV formatted UTF-8 string",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Csv Column",
+"description": "Set the title of a column",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Csv Set$",
+"description": "Set the content of a cell from a string",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Csv Set",
+"description": "Set the content of a cell from a number",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Csv Erase",
+"description": "Reset a CSV channel, all data will be erased",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Csv Width",
+"description": "Returns the number of columns of a channel",
+"descriptionMoreURL": "https://www.aoz.studio/"
+},{
+"text": "Csv Height",
+"description": "Returns the number of lines of a channel",
+"descriptionMoreURL": "https://www.aoz.studio/"
+}]
