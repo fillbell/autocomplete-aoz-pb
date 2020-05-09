@@ -30,3 +30,5 @@ Added IsSprite
 Changed from the basic provider to now use the intermediate, data now comes from the generated AOZ Studio documentation
 ## 1.14.0
 Fixed incorrect instruction name
+## 1.15.0
+Removed duplicates
