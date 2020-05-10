@@ -36,3 +36,5 @@ Removed duplicates
 Added params to the instruction info
 ## 1.17.0
 Updated to with type and rightLabel
+## 1.18.0
+Updated to allow multiple instructions with different params
