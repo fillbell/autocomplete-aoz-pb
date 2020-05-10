@@ -34,3 +34,5 @@ Fixed incorrect instruction name
 Removed duplicates
 ## 1.16.0
 Added params to the instruction info
+## 1.17.0
+Updated to with type and rightLabel
