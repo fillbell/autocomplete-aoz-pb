@@ -38,3 +38,5 @@ Added params to the instruction info
 Updated to with type and rightLabel
 ## 1.18.0
 Updated to allow multiple instructions with different params
+## 1.19.0
+Updated Past Bob

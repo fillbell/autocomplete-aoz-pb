@@ -9,7 +9,7 @@
               },
               {
               "text": "Paste Bob",
-              "description": "Paste Bob X, Y, IMAGE\nPuts an image on screen at the X and Y location",
+              "description": "Paste Bob X, Y, IMAGE\nDraws an image from the image bank in the current screen",
               "descriptionMoreURL": "https://www.aoz.studio/",
               "type": "method",
               "rightLabel": "instruction"
