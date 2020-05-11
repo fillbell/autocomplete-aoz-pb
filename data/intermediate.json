@@ -14,6 +14,13 @@
               "type": "method",
               "rightLabel": "instruction"
               },
+              {
+              "text": "Paste Bob",
+              "description": "Paste Bob X, Y, IMAGE, SCALEX, SCALEY, ANGLE, TAGS\nDraws an image from the image bank in the current screen",
+              "descriptionMoreURL": "https://www.aoz.studio/",
+              "type": "method",
+              "rightLabel": "instruction"
+              },
           {
           "text": "Sprite Move X",
           "description": "Sprite Move X INDEX, MOVEMENT$\nDefines the horizontal movement of a sprite",
