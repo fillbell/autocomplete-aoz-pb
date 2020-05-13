@@ -4847,13 +4847,13 @@
           "rightLabel": "function"
           },{
           "text": "Print",
-          "description": "Print ITEMS\nPrint items inm the currebnt window of the current screen. A semi-column at the end of will prevent a new-line",
+          "description": "Print ITEMS\nPrint items in the current window of the current screen. A semi-column at the end of will prevent a new-line",
           "descriptionMoreURL": "https://www.aoz.studio/",
           "type": "method",
           "rightLabel": "instruction"
           },{
           "text": "Print Using",
-          "description": "Print Using ITEM\nPrint formatted text and numbers in the currebnt window of the current screen. A semi-column at the end of will prevent a new-line",
+          "description": "Print Using ITEM\nPrint formatted text and numbers in the current window of the current screen. A semi-column at the end of will prevent a new-line",
           "descriptionMoreURL": "https://www.aoz.studio/",
           "type": "method",
           "rightLabel": "instruction"

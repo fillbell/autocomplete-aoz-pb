@@ -41,4 +41,6 @@ Updated to allow multiple instructions with different params
 ## 1.19.0
 Updated Past Bob
 ## 1.20.0
-Updated Past Bob with optional parameters
+Updated Paste Bob with optional parameters
+## 1.21.0
+Fixed typos in Print description
