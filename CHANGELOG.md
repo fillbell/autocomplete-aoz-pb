@@ -44,3 +44,5 @@ Updated Past Bob
 Updated Paste Bob with optional parameters
 ## 1.21.0
 Fixed typos in Print description
+## 1.22.0
+Fixed typos autocomplete 

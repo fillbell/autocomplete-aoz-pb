@@ -119,7 +119,7 @@
           "rightLabel": "instruction"
           },{
           "text": "Bob Anim On",
-          "description": "Bob Anim On INDEX\nStops the animation of one or all the bobs.",
+          "description": "Bob Anim On INDEX\nStarts the animation of one or all the bobs.",
           "descriptionMoreURL": "https://www.aoz.studio/",
           "type": "method",
           "rightLabel": "instruction"
