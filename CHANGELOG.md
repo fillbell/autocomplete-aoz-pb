@@ -45,4 +45,6 @@ Updated Paste Bob with optional parameters
 ## 1.21.0
 Fixed typos in Print description
 ## 1.22.0
-Fixed typos autocomplete 
+Fixed typos autocomplete
+## 1.23.0
+Updated to use the guidemap.json file which is generated during the AOZ Stdio build procedure
